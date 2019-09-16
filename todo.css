@@ -1,0 +1,79 @@
+body {
+	background-color: rgba(238, 196, 8, 0.096) !important;
+}
+.head {
+	font-size: 60px;
+	width: 100px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	/* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+	margin: 10px auto;
+	font-weight: bold;
+	color: lightyellow;
+}
+.todo {
+	/* border: 1px solid black; */
+	border-radius: 5px;
+	width: 70%;
+	margin: 10px auto;
+	display: flex;
+	flex-flow: column;
+	background-color: burlywood;
+}
+
+.todo__add {
+	display: flex;
+	padding: 30px;
+	justify-content: space-around;
+}
+
+.form-control {
+	width: 70% !important;
+	background-color: wheat !important;
+	color: rgb(102, 68, 6) !important;
+}
+
+.todo__tasks {
+	/* border-top: 1px solid rgb(0, 0, 0); */
+
+	display: flex;
+	flex-flow: column;
+}
+
+.task {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgba(144, 141, 141, 0.137);
+	padding: 35px;
+	border-bottom: 1px solid rgba(75, 57, 20, 0.137);
+	border-radius: 5px;
+
+}
+
+.task > *{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.number {
+	margin: 5px;
+	padding: 0 7px;
+	border: 1px solid rgba(255, 255, 255, 0.383);
+	border-radius: 15%;
+	color: white;
+}
+
+.buttons {
+	width: 200px;
+	display: flex;
+	justify-content: space-around;
+}
+.text {
+	width: 50%;
+	color:  rgb(102, 68, 6);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
